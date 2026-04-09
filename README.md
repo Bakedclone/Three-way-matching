@@ -166,6 +166,12 @@ GET /match/:poNumber
 - Match status  
 - Detailed mismatch reasons  
 
+### 📬 API Usage
+
+You can see APIs usage example using the Postman collection below:
+
+👉 [Open Postman Collection](https://www.postman.com/solar-firefly-915981/projects/collection/32074923-6fdebc1e-520a-4c1a-92de-440c9c383833?action=share&source=copy-link&creator=32074923)
+
 ---
 
 ## ⚠️ Assumptions
@@ -264,8 +270,6 @@ const config = {
 
 export default config;
 ```
-
----
 
 ---
 
