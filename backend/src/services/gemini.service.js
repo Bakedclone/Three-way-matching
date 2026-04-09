@@ -22,7 +22,7 @@ Rules:
 - Use exact keys as specified
 - If value missing, return null
 - Extract items as array
-- Assume that item code only contains number. If Item Code = "11423 psm" then ignore character after space
+- Assume that item code doesn't contain whitespace. If Item Code = "11423 psm" then ignore characters before/after space.
 
 Schema:
 
@@ -95,7 +95,6 @@ export const parseDocument = async (fileBuffer, mimeType, documentType) => {
         });
 
         const responseText = result.text;
-        console.log(responseText)
 
         const cleanText = responseText
         .replace(/```json/g, "")

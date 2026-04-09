@@ -1,7 +1,7 @@
 {
-  "name": "backend",
+  "name": "three-way-matching-backend",
   "version": "1.0.0",
-  "description": "",
+  "description": "Three-way match backend service for Purchase Order (PO), Goods Receipt Note (GRN), and Invoice documents using Node.js, Express, MongoDB, and Gemini AI for document parsing.",
   "type": "module",
   "main": "server.js",
   "scripts": {
@@ -12,7 +12,6 @@
   "license": "ISC",
   "dependencies": {
     "@google/genai": "^1.48.0",
-    "axios": "^1.14.0",
     "dotenv": "^17.4.0",
     "express": "^5.2.1",
     "mongodb": "^7.1.1",
